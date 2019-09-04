@@ -1,0 +1,12 @@
+// Your variable overrides
+
+$theme-colors: (
+  primary: #327c7f
+);
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.btn-theme {
+  color: #fff;
+  background-color: #327c7f;
+  border-color: #327c7f;
+}
