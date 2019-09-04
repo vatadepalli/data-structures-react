@@ -43,16 +43,14 @@ class Navbar extends Component {
           <ul className="navbar-nav mr-auto">
             {/* Home */}
             <NavItem name={"Home"} link={"/"} />
-            <NavItemCollapse
-              name={"Algorithms"}
-              link={"/"}
-              items={[{ name: "Banna", link: "/" }]}
-            />
-            <NavItemCollapse
+            <NavItem name={"Algorithms"} link={"/algos"} />
+            <NavItem name={"Data Structures"} link={"/datastructures"} />
+
+            {/*<NavItemCollapse
               name={"Data Structures"}
               link={"/"}
               items={[{ name: "Banna", link: "/" }]}
-            />
+            />*/}
           </ul>
           <ul className="navbar-nav float-right">
             <NavItem name={"Login"} link={"/login"} />
